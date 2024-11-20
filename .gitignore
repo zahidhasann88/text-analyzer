@@ -1,0 +1,92 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.sqlite3
+*.db
+
+# Environment files
+.env*
+!.env.example
+
+# Backup files
+*.bak
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Flask migration files
+migrations/
+
+# Dependency directories
+node_modules/
+
+# Docker
+.docker/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Secrets
+secrets.json
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Flask instance folder
+instance/
+
+# Redis
+*.rdb
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Django static files
+staticfiles/
+
+# Notebooks
+*.ipynb
+
+# Security
+*.pem
+*.key
